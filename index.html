@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Enter Data</h2><br>
+    <form action="">
+        <label id="orange-text" for="name">Name:</label> <input type="text" placeholder="Enter your Name" name="name" id="name"> <br><br>
+        <label for="email">Email id:</label> <input type="email" placeholder="Enter your email" name="email" id="email"> <br><br>
+        <label for="password">password:</label> <input type="password" placeholder="Enter your Password" name="password" id="password"> <br><br>
+        <label for="cpassword">confirm password:</label> <input type="password" name="cpassword" id="cpassword"> <br><br>
+        <label for="">Gender:</label> 
+            <input type="radio" name="gender" value="male" id="gender-m"> <label for="gender-m">Male</label> 
+            <input type="radio" name="gender" value="female" id="gender-f"> <label for="gender-f">Female</label> 
+            <input type="radio" name="gender" value="none" id="gender-d"> <label for="gender-d">Don't prefer</label>
+            <br><br>
+        <label for="">Languages Known:</label> 
+            <input type="checkbox" name="languages" value="tamil" id="lang-t"> <label for="lang-t">Tamil</label>
+            <input type="checkbox" name="languages" value="english" id="lang-e"> <label for="lang-e">English</label>
+            <input type="checkbox" name="languages" value="malyalam" id="lang-m"> <label for="lang-m">Malyalam</label>
+            <input type="checkbox" name="languages" value="kannada" id="lang-k"> <label for="lang-k">Kannada</label>
+            <input type="checkbox" name="languages" value="telugu" id="lang-te"> <label for="lang-te">Telugu</label>
+            <input type="checkbox" name="languages" value="hindi" id="lang-h"> <label for="lang-h">Hindi</label>
+      <br><br>
+        <label for="country">Country:</label> 
+          <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="sri lanka">Sri Lanka</option>
+          </select> 
+    <br><br>
+        <label for="bio">Bio:</label>
+          <textarea name="bio" id="bio"></textarea>
+    <br><br>
+        <input type="submit">
+    </form>
+  </div> 	
+</body>
+</html> 
